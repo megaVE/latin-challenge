@@ -1,0 +1,101 @@
+/* General */
+
+* {
+    /* border: solid 1px magenta !important;  */
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../img/sunrise-landscapes-nature-fog-calm-dreamy-lakes-1920x1200-nature-lakes-hd-art-wallpaper-preview.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hidden{
+    display: none !important;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    outline: none;
+    border: none;
+}
+
+/* Linearicons */
+
+.lnr{
+    display: flex;
+    align-items: center;
+}
+
+/* Fonts */
+
+h1, h2, h3, a, button{
+    font-family: 'Overlock SC', cursive;
+    text-align: center;
+}
+
+h4, h5, h6, header{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    text-align:justify;
+}
+
+ul, p{
+    font-family: 'Lora', serif;
+    text-align:justify;
+}
+
+/* Font Size */
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2, a, button{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h3, header{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 22px;
+}
+
+p, ul{
+    font-size: 20px;
+}
+
+/* Margin and Padding */
+
+h1, h2, h3{
+    padding: 10px 20px;
+}
+
+h4{
+    padding: 10px;
+}
+
+p{
+    padding: 5px 15px;
+}
+
+ul{
+    padding-left: 50px;
+}
+
+li{
+    padding: 5px;
+}

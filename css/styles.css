@@ -1,0 +1,64 @@
+.alternative{
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px 5px;
+    background-color: rgba(127, 76, 15, 0.4);
+    border: 2px solid #000; 
+    color: #000;
+    cursor: pointer;
+}
+
+.alternative label{
+    cursor: pointer;
+}
+
+.alternative:hover{
+    background-color: rgba(127, 76, 15, 0.6);
+}
+
+.alternative.selected{
+    background-color: rgba(127, 76, 15, 0.9);
+    border: 2px solid #000;
+    border-style: groove;
+    color: #d2d2d2;
+}
+
+.alternative.selected:hover{
+    background-color: rgb(127, 76, 15);
+    color: #e3e3e3;
+}
+
+.alternative input{
+    opacity: 0;
+}
+
+.start-quote, .start-quote p, .end-quote, .end-quote p, .input-quote, .input-quote input{
+    display: inline-block;
+}
+
+.input-quote input[type=text]{
+    margin: -10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0);
+    transition: 0.2s;
+    font-size: 20px;
+}
+
+.input-quote input[type=text]:focus{
+    outline: none;
+    background-color: rgba(127, 76, 15, 0.2);
+}
+
+.incorrect{
+    color: #A00;
+}
+
+.correct{
+    color: #0A0;
+}
+
+.confirm{
+    padding-top: 20px;
+    padding-left: 10px;
+}
